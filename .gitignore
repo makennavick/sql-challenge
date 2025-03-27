@@ -1,4 +1,6 @@
+
 .DS_Store
+# should delete anyways
 quickdbd.sql
 Test copy.sql
 QuickDBD-export.sql
