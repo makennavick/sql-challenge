@@ -1,11 +1,11 @@
 # sql-challenge
 
-PROMPT
-It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
+## Goal
+Explore Pewlett Hackard's employee data from the 1980s/1990s
 
-## Background
-
-I used [QuickDBD](quickdatabasediagrams.com) to draw up a quick [schema](EmployeeSQL/quickdbd-diagram.png) of the data, exported it to create six tables in PostgreSQL, and imported six corresponding CSVs. Ran into many problems at first until we remembered to remove the serial id column during the imports.
+## Overview
+I used [QuickDBD](quickdatabasediagrams.com) to draw up a quick [schema](EmployeeSQL/quickdbd-diagram.png) of the data, exported it to create six tables in PostgreSQL, and imported six corresponding CSVs. Ran into many problems at first until we remembered to remove the serial id column during the imports. Then we're able to run our queries.
 
 ## Resources
-- S/O to Ethan Donoho 
+- Got help from my peer Ethan Donoho 
+- Bootcamp activities
